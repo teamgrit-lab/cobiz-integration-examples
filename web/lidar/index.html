@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lidar | CoBiz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    div {
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvasContainer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+  <script src="https://www.gstatic.com/draco/versioned/decoders/1.5.7/draco_wasm_wrapper.js"></script>
+  <script src="scripts/lidar.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
