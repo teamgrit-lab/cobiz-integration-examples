@@ -38,7 +38,7 @@ Video::Video() : Node("video")
 
 Moth 서버로 연결하기 위한 웹소켓 초기화 코드입니다. 다음 값을 설정해 주어야 합니다.
 
-- `"your_path"` : Moth에 웹소켓으로 연결하기 위한 도메인 이하 Path값을 설정합니다. 자세한 내용은 [Moth 서버의 API 문서](https://cobiz-docs.cobor.center/docs/advanced-guides/protocol/api-service)를 참고하세요.
+- `"your_path"` : Moth에 웹소켓으로 연결하기 위한 도메인 이하 Path값을 설정합니다. 자세한 내용은 [Moth 서버의 API 문서](https://docs-cobiz.cobot.center/docs/protocol/api-service)를 참고하세요.
 
 ```cpp
 bool Video::initWebSocket(){
